@@ -77,11 +77,3 @@ getData() {
 	})
 },
 ```
-
-
-::: theorem 心灵鸡汤
-我们坚持一件事情，并不是因为这样做了会有效果，而是坚信，这样做是对的。
-
-::: right
-来自 [句子控](https://www.juzikong.com/tags/%E5%8A%B1%E5%BF%97)
-:::

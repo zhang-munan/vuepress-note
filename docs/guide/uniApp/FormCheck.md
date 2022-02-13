@@ -67,11 +67,3 @@ formSubmit: function(e) {
 
 
 
-
-
-::: theorem 心灵鸡汤
-生活总是让我们遍体鳞伤，可是后来，那些受伤的地方一定会变成我们最强壮的地方。
-
-::: right
-来自 [句子控](https://www.juzikong.com/tags/%E5%8A%B1%E5%BF%97)
-:::

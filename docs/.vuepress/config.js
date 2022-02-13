@@ -60,7 +60,7 @@ module.exports = {
         ]
       },
       { text: '时间线', link: '/timeline/', icon: 'reco-date' },
-      { text: 'GitHub', link: 'https://github.com/smallsunnyfox/vuepress-theme-reco-starter', icon: 'reco-github' },
+      { text: 'GitHub', link: 'https://github.com/zhang-munan/vuepress-note', icon: 'reco-github' },
       // {
       //   text: 'Languages',
       //   ariaLabel: 'Language Menu',

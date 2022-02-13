@@ -107,10 +107,3 @@ export function createApp() {
 ### uView组件
 
 [uView官网](https://www.uviewui.com/components/install.html)，点击下载地址，进入插件市场，使用HBuilderX导入插件，不建议用npm下载
-
-::: theorem 心灵鸡汤
-不管前方的路有多苦，只要走的方向正确，不管多么崎岖不平，都比站在原地更接近幸福。
-
-::: right
-来自 [句子控](https://www.juzikong.com/tags/%E5%8A%B1%E5%BF%97)
-:::

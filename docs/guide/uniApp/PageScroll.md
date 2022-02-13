@@ -97,10 +97,3 @@ export default {
 | topClick | 点击回到顶部按钮的回调 | 非必填 | - |
 | scroll | 滚动监听 (需在 up 配置 onScroll:true 才生效) | 非必填 | - |
 
-
-::: theorem 心灵鸡汤
-不管前方的路有多苦，只要走的方向正确，不管多么崎岖不平，都比站在原地更接近幸福。  
-
-::: right
-来自 [句子控](https://www.juzikong.com/tags/%E5%8A%B1%E5%BF%97)
-:::

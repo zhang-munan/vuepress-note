@@ -8,13 +8,13 @@ date: '2022/01/05'
 ### 跳转页面
 
 ``` js
-this.$u.route('/pages/index/current')
+this.$d.route('/pages/index/current')
 ```
 
 ### 设置跳转方式
 
 ``` js
-this.$u.route({
+this.$d.route({
   type: 'tab',
   url: '/pages/index/current'
 })
@@ -23,14 +23,14 @@ this.$u.route({
 ### 携带参数
 
 ``` js
-this.$u.route('/pages/index/current',{
+this.$d.route('/pages/index/current',{
   data: 'info',
   status: 1
 })
 ```
 
 ``` js
-this.$u.route({
+this.$d.route({
   url: '/pages/index/current',
   params: {
     data: 'info',
@@ -50,12 +50,3 @@ this.$u.route({
 | animationDuration |Number| 窗口动画持续时间,单位毫秒,只在APP有效|   -   |     300    |
 | intercept |Boolean| 是否需要拦截 |   -   |     false    |
 
-
-
-
-::: theorem 心灵鸡汤
-人生的态度是，抱最大的希望，尽最大的努力，做最坏的打算。
-
-::: right
-来自 [句子控](https://www.juzikong.com/tags/%E5%8A%B1%E5%BF%97)
-:::

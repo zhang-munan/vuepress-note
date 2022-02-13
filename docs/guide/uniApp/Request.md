@@ -43,12 +43,3 @@ this.$api.fetchMenu({}).then(res => {
 |params  | Object| 请求参数| - | - |
 |config  | Object| 头部参数| - | {} |
 
-
-
-
-::: theorem 心灵鸡汤
-你要去相信，时光且长，你终将长成自己想要的模样，拥抱独属于你的未来。
-
-::: right
-来自 [句子控](https://www.juzikong.com/tags/%E5%8A%B1%E5%BF%97)
-:::

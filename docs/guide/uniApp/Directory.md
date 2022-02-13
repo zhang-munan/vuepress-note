@@ -21,6 +21,9 @@ date: '2022/01/01'
 │   │   │   └── throttle.js
 │   │   ├── luch-request
 │   │   ├── mixin
+│   │   ├── plugins
+│   │   │   └── APPUpdate
+│   │   │       └── index.js
 │   │   └── utils
 │   ├── index.scss
 │   └── theme.scss
@@ -60,6 +63,7 @@ date: '2022/01/01'
 - `` baseConfig/libs/function/``: 全局的共通方法。
 - `` baseConfig/libs/luch-request/``: 用于封装request请求。
 - `` baseConfig/libs/mixin/``: 全局的混入对象。
+- `` baseConfig/libs/plugins/``: APP版本更新。
 - `` baseConfig/libs/utils/``: 工具类。
 - `` common/``: 当前项目的共通方法。
 - `` pages/``: 项目的所有页面。
@@ -76,11 +80,3 @@ baseConfig 是自行封装的用来帮助提升开发效率的工具，不是项
 - [vue官方文档(v2.x)](https://cn.vuejs.org/index.html)
 - [vue官方文档(v3.x)](https://v3.cn.vuejs.org/)
 - [dayjs官方文档](https://dayjs.fenxianglu.cn/category/#node-js)
-
-
-::: theorem 心灵鸡汤
-人生没有白走的路，每一步都算数。
-
-::: right
-来自 [句子控](https://www.juzikong.com/tags/%E5%8A%B1%E5%BF%97)
-:::
