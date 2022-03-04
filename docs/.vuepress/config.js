@@ -7,19 +7,6 @@ module.exports = {
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   base: '/dlhcnote/',
-  // markdown: {
-  //   lineNumbers: true
-  // },
-  // locales: {
-  //   // 键名是该语言所属的子路径
-  //   // 作为特例，默认语言可以使用 '/' 作为其路径。
-  //   '/': {
-  //     lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
-  //   },
-  //   '/en/': {
-  //     lang: 'en-US',
-  //   }
-  // },
   // 主题设置
   themeConfig: {
     author: 'zhangmunan',
@@ -61,14 +48,6 @@ module.exports = {
       },
       { text: '时间线', link: '/timeline/', icon: 'reco-date' },
       { text: 'GitHub', link: 'https://github.com/zhang-munan/vuepress-note', icon: 'reco-github' },
-      // {
-      //   text: 'Languages',
-      //   ariaLabel: 'Language Menu',
-      //   items: [
-      //     { text: 'Chinese', link: '/language/chinese/' },
-      //     { text: 'Japanese', link: '/language/japanese/' }
-      //   ]
-      // }
     ],
     sidebar: {
       '/guide/vue/': [
@@ -116,27 +95,26 @@ module.exports = {
       ],
       '/guide/miniApp/': [
         {
-          title: '使用',
+          title: '基础',
           children: [
             '',
+          ]
+        },
+        {
+          title: '使用',
+          children: [
             {
               title: '交互',
               collapsable: false,
               children: [
-                '',
-              ]
-            },
-            {
-              title: '工具类',
-              collapsable: false,
-              children: [
-                '',
+                'Route',
               ]
             },
             {
               title: '共通处理',
               collapsable: false,
               children: [
+                'Change',
                 'Pagination',
               ]
             },
